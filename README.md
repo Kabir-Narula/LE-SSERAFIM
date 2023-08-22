@@ -48,10 +48,7 @@ The JavaScript file (`main.js`) provides interactivity and enhances the user exp
 
 Feel free to explore the CSS and JavaScript code to understand the implementation of various design elements and interactive features. Modify and adapt the code to suit your preferences and project requirements.
 
-## Acknowledgments
-
-This project would not have been possible without the inspiration drawn from the Levi's brand and the capabilities of CSS and JavaScript. Special thanks to the open-source community for their contributions to web development tools and resources.
 
 ## Contact
 
-If you have any questions or feedback about this project, please feel free to reach out to me via [your contact information].
+If you have any questions or feedback about this project, please feel free to reach out to me via [kabirnar10@gmail.com].
