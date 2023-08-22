@@ -51,4 +51,4 @@ Feel free to explore the CSS and JavaScript code to understand the implementatio
 
 ## Contact
 
-If you have any questions or feedback about this project, please feel free to reach out to me via [kabirnar10@gmail.com].
+If you have any questions or feedback about this project, please feel free to reach out to me via kabirnar10@gmail.com.
