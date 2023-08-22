@@ -1,17 +1,17 @@
-#Levi's Side Project Website
+# Levi's Side Project Website
 Welcome to the repository for my side project website dedicated to Levi! This project showcases my skills in CSS and JavaScript while paying tribute to the iconic Levi's brand. Below, you'll find an overview of the CSS styles and JavaScript functionalities used in this project.
 
-#CSS Styles
+# CSS Styles
 The CSS file for this project (styles.css) contains various styles that contribute to the visual design and responsiveness of the website. Here are some key styles used:
 
 #Background Styling:
 
-*The background image is set to cover the entire viewport with object-fit: cover.
-*The background brightness is adjusted using the filter property.
+* The background image is set to cover the entire viewport with object-fit: cover.
+* The background brightness is adjusted using the filter property.
 
-*Header Bar:
-**The navigation bar (headerBar) is styled to have a semi-transparent black background.
-**The logo and navigation links are positioned using flexbox.
+* Header Bar:
+** The navigation bar (headerBar) is styled to have a semi-transparent black background.
+** The logo and navigation links are positioned using flexbox.
 
 Logo Styling:
 *The logo (logoContainer) consists of text and an image.
