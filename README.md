@@ -1,6 +1,6 @@
-# Levi's Side Project Website
+# LESSERAFIM 
 
-Welcome to the repository for my side project website dedicated to Levi! This project showcases my skills in CSS and JavaScript while paying tribute to the iconic Levi's brand. Below, you'll find an overview of the CSS styles and JavaScript functionalities used in this project.
+Welcome to the repository for my side project website dedicated to Lesserafim! This project showcases my skills in CSS and JavaScript while paying tribute to the iconic Levi's brand. Below, you'll find an overview of the CSS styles and JavaScript functionalities used in this project.
 
 ## CSS Styles
 
@@ -44,11 +44,7 @@ The JavaScript file (`main.js`) provides interactivity and enhances the user exp
 - **Responsive Design Handling**:
   - Media queries are used to adjust the layout and functionality for different screen sizes.
 
-## Usage
-
-Feel free to explore the CSS and JavaScript code to understand the implementation of various design elements and interactive features. Modify and adapt the code to suit your preferences and project requirements.
 
 
-## Contact
 
-If you have any questions or feedback about this project, please feel free to reach out to me via kabirnar10@gmail.com.
+
