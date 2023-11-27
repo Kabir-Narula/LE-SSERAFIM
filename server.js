@@ -2,10 +2,18 @@ const express = require('express');
 const app = express();
 app.set('view engine', 'ejs');
 
+const path = require('path');
+
 const port = 3000;
 
 // Serve static files
 app.use(express.static('public'));
+
+app.get('/favicon.ico', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'favicon.ico'));
+});
+
+const path = require('path');
 
 // Define routes
 app.get('/', (req, res) => {
