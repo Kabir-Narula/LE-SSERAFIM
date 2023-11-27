@@ -1,0 +1,24 @@
+.zoom{  
+  -webkit-transition: all 0.35s ease-in-out;    
+  -moz-transition: all 0.35s ease-in-out;    
+  transition: all 0.35s ease-in-out;     
+  cursor: -webkit-zoom-in;      
+  cursor: -moz-zoom-in;      
+  cursor: zoom-in;  
+  color: rgb(116, 108, 108);
+  box-shadow: 0 0 20px #3d3d3d ;
+}
+
+.zoom:hover,  
+.zoom:active,   
+.zoom:focus {
+-ms-transform: scale(1.5);    
+-moz-transform: scale(1.5);  
+-webkit-transform: scale(1.5);  
+-o-transform: scale(1.5);  
+transform: scale(1.5);    
+position:relative;      
+z-index:100;  
+margin: auto;
+display: block;
+}
