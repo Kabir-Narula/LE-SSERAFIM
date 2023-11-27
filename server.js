@@ -9,8 +9,9 @@ app.use(express.static('public'));
 
 // Define routes
 app.get('/about', (req, res) => {
-  res.render('about', { /* data */ });
+  res.render('about'); // Assuming 'about.ejs' is in your 'views' folder
 });
+
 
 app.get('/characters', (req, res) => {
   res.render('characters', { /* data */ });
