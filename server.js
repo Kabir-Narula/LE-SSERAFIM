@@ -11,6 +11,9 @@ const port = 3000;
 // Serve static files
 app.use(express.static('public'));
 
+app.get('/favicon.ico', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'favicon.ico'));
+});
 
 
 // Define routes
