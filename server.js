@@ -8,10 +8,13 @@ const port = 3000;
 app.use(express.static('public'));
 
 // Define routes
-app.get('/about', (req, res) => {
-  res.render('about'); // Assuming 'about.ejs' is in your 'views' folder
+app.get('/', (req, res) => {
+  res.render('index');
 });
 
+app.get('/about', (req, res) => {
+  res.render('about');
+});
 
 app.get('/characters', (req, res) => {
   res.render('characters', { /* data */ });
@@ -25,8 +28,7 @@ app.get('/contact', (req, res) => {
   res.render('contact', { /* data */ });
 });
 
-
 // Start the server
 app.listen(port, () => {
-    console.log(`Server listening at http://localhost:${port}`);
+  console.log(`Server listening at http://localhost:${port}`);
 });
