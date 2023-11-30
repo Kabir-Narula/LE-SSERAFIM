@@ -68,34 +68,3 @@ function showOrHide() {
     }
 }
 
-
-document.addEventListener("DOMContentLoaded", function() {
-    // Assuming your table has an ID 'albumTable'
-    var table = document.getElementById('albumTable');
-
-    // Add click event to each header
-    var headers = table.querySelectorAll('th');
-    headers.forEach(function(header, index) {
-        header.addEventListener('click', function() {
-            sortTableByColumn(table, index);
-        });
-    });
-});
-
-function sortTableByColumn(table, column) {
-    var rows = Array.from(table.querySelectorAll('tr:nth-child(n+2)')); // Skip the header row
-    var ascending = rows[0].getAttribute('data-order') === 'asc';
-    
-    rows.sort(function(rowA, rowB) {
-        var cellA = rowA.querySelectorAll('td')[column].textContent.trim();
-        var cellB = rowB.querySelectorAll('td')[column].textContent.trim();
-        return ascending ? cellA.localeCompare(cellB) : cellB.localeCompare(cellA);
-    });
-
-    rows.forEach(function(row) {
-        table.appendChild(row); // Reorder the rows
-    });
-
-    // Toggle the order attribute
-    rows[0].setAttribute('data-order', ascending ? 'desc' : 'asc');
-}
