@@ -24,7 +24,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: black;
     text-decoration: none;
     position: fixed;
     top: 0;
@@ -372,7 +372,7 @@ body {
 
 .layer2Bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.315)); 
-    margin-top: 18em;
+    margin-top: 2em;
 }
 
 .layer2Content {
